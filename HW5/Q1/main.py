@@ -71,9 +71,9 @@ def time_eff_comp(li, epoch=1000):
 if __name__ == "__main__":
     merge_sort_t = []
     insertion_sort_t = []
-    # test_size = [10, 50, 100, 500] + [1000 * k for k in range(1, 10)] + [10000]
+    test_size = [10, 50, 100, 500] + [1000 * k for k in range(1, 10)] + [10000]
     # test_size = [10 * k for k in range(1, 10)] + [100 * k for k in range(1, 11)]
-    test_size = [10 * k for k in range(1, 11)]
+    # test_size = [10 * k for k in range(1, 11)]
     for n in test_size:
         li = list(map(int, range(n)))
         random.shuffle(li)
@@ -92,5 +92,5 @@ if __name__ == "__main__":
     plt.xlabel("size of list")
     plt.ylabel("running time")
     plt.legend(loc="best")
-    fig_name = "./Q1/" + str(test_size[0]) + "_" + str(test_size[-1]) + ".png"
-    plt.savefig(fig_name, dpi=300)
+    fig_name = "./Q1/" + str(test_size[0]) + "_" + str(test_size[-1]) + ".pdf"
+    plt.savefig(fig_name, dpi=300, bbox_inches='tight')
