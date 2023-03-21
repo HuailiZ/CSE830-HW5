@@ -1,0 +1,57 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "d0e65a7adcd7da7a744f1b4051613b9797f3f9302357d9d06c99d2fca070039c"
+    }
+  ],
+  "containerPath" : "/Users/huaili/Documents/GitHub/CSE830-HW5/HW5/Q3/CSE830HW5Q3/CSE830HW5Q3.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/huaili/Documents/GitHub/CSE830-HW5/HW5/Q3/CSE830HW5Q3/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/huaili/Documents/GitHub/CSE830-HW5/HW5/Q3/CSE830HW5Q3/Build/Products",
+      "derivedDataPath" : "/Users/huaili/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/huaili/Library/Developer/Xcode/DerivedData/CSE830HW5Q3-azyexlvogtfurtfqulimkfscwbsv/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/huaili/Library/Developer/Xcode/DerivedData/CSE830HW5Q3-azyexlvogtfurtfqulimkfscwbsv/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/huaili/Documents/GitHub/CSE830-HW5/HW5/Q3/CSE830HW5Q3/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

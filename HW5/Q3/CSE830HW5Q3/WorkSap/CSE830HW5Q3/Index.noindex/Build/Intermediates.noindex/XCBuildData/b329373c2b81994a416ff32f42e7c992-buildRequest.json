@@ -1,0 +1,60 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "d0e65a7adcd7da7a744f1b4051613b9797f3f9302357d9d06c99d2fca070039c"
+    }
+  ],
+  "containerPath" : "/Users/huaili/Documents/GitHub/CSE830-HW5/HW5/Q3/CSE830HW5Q3/CSE830HW5Q3.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/huaili/Documents/GitHub/CSE830-HW5/HW5/Q3/CSE830HW5Q3/WorkSap/CSE830HW5Q3/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/huaili/Documents/GitHub/CSE830-HW5/HW5/Q3/CSE830HW5Q3/WorkSap/CSE830HW5Q3/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/huaili/Documents/GitHub/CSE830-HW5/HW5/Q3/CSE830HW5Q3/WorkSap",
+      "indexDataStoreFolderPath" : "/Users/huaili/Documents/GitHub/CSE830-HW5/HW5/Q3/CSE830HW5Q3/WorkSap/CSE830HW5Q3/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/huaili/Documents/GitHub/CSE830-HW5/HW5/Q3/CSE830HW5Q3/WorkSap/CSE830HW5Q3/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/huaili/Documents/GitHub/CSE830-HW5/HW5/Q3/CSE830HW5Q3/WorkSap/CSE830HW5Q3/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/huaili/Documents/GitHub/CSE830-HW5/HW5/Q3/CSE830HW5Q3/WorkSap/CSE830HW5Q3/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
